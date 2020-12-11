@@ -86,7 +86,7 @@ This function will work even if the csv file is larger than would fit in memory
 because all the steps are lazy.
 
 There are a few things to look out for when dealing with lazy
-sequences. Espacially with data.csv where the sequence is often created via a
+sequences. Especially with data.csv where the sequence is often created via a
 `clojure.java.io/reader` that could already be closed when the lazy sequence is
 consumed. For example
 
